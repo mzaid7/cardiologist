@@ -66,7 +66,7 @@ nav {
 }
 
 .main {
-    background-image: url(/assets/NFs.jpg);
+    background-image: url(assets/NFs.jpg);
     background-size: max(1000px, 100vw);
     background-repeat: no-repeat;
     height: 100vh;
