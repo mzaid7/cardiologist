@@ -1,0 +1,1079 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    font-family: "Nunito";
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: rgba(233, 233, 233, 0.419);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    font-size: 18px;
+    font-weight: 800;
+    z-index: 10;
+    position: relative;
+    /* background-color: rgb(255, 255, 255); */
+    height: 70px;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.432);
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    position: relative;
+    z-index: 10;
+    height: 50px;
+    width: 50px;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    position: relative;
+    z-index: 10;
+    font-weight: 800;
+    margin: 0px 10px;
+    text-decoration: none;
+    color: rgb(10, 35, 51);
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+.navigation ul li a:hover {
+    color: rgb(248, 93, 119);
+    text-decoration: underline;
+
+}
+
+.main {
+    background-image: url(/assets/map.jpg);
+    background-size: max(1000px, 100vw);
+    background-repeat: no-repeat;
+    height: 89vh;
+    width: 100vw;
+}
+
+.box {
+    height: 89vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
+.contact_card_container {
+    position: relative;
+    top: -30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.contact_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 85vw;
+    height: 80vh;
+}
+
+.card_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 40vw;
+    background-color: white;
+}
+
+.card_right {
+    background-color: rgb(10, 35, 51);
+    height: 80vh;
+    width: 50vw;
+}
+
+.card_left_content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+    margin-right: 60px;
+    height: 70vh;
+    width: 30vw;
+    background-color: rgb(255, 255, 255);
+}
+
+.lc-1-1 {
+    gap: 10px;
+    width: 15vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.lc-1-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 37px;
+}
+
+.lc-1-2 span {
+    color: rgb(130, 134, 144);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card_right_content {
+    width: 46vw;
+    height: 70vh;
+    /* background-color:rgb(248, 93, 119); */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 60px 30px;
+    gap: 20px;
+}
+
+.card_right_content-span2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(130, 134, 144)
+}
+
+
+.rc-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rc-1 input {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Nunito, sans-serif;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    height: 10vh;
+    width: 22vw;
+}
+
+.rc-1-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rc-1-3 input {
+    height: 20vh;
+    width: 45vw;
+}
+
+.rc-1-3 button {
+    background-color: rgb(238, 52, 78);
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 20px;
+    height: 10vh;
+    width: 15vw;
+    border: none;
+}
+
+.rc-1-3 button:hover {
+    transition: 0.3s ease;
+    color: white;
+}
+
+
+
+
+
+.footer {
+
+    margin-top: 0px;
+    height: 60vh;
+    background-color: rgba(217, 217, 217, 0.386);
+}
+
+.footer_content1 {
+    padding: 20px;
+    gap: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo_name {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.logo_footer {
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_line {
+    height: 9vh;
+    background-color: rgba(0, 0, 0, 0.255);
+    width: 0.5px;
+}
+
+.location_logo {
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 60px;
+    background-color: rgb(255, 61, 61);
+}
+
+.location_logo img {
+    height: 30px;
+    width: 30px;
+}
+
+.location {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location_info {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact_logo {
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 60px;
+    background-color: rgb(255, 61, 61);
+}
+
+.contact_info {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social_media_logo img {
+    height: 30px;
+    width: 30px;
+}
+
+.footer_line_horizontal {
+    width: 90vw;
+    height: 0.5px;
+    background-color: rgba(0, 0, 0, 0.255);
+    margin: auto;
+}
+
+.footer_content2 {
+    height: 42vh;
+    gap: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Title_content {
+    font-weight: 600;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.Title {
+    height: 30vh;
+    width: 10vw;
+}
+
+.Title_head h3 {
+    padding-bottom: 10px;
+}
+
+.Information span a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(16, 54, 80);
+}
+
+.Information_Title {
+    gap: 10px;
+}
+
+.News_Letter_content input {
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.News_Letter_content button {
+    padding: 10px;
+    border-radius: 15px;
+    width: 8vw;
+    font-size: 15px;
+    font-weight: 800px;
+    color: white;
+    background-color: rgb(25, 33, 54);
+    height: 40px;
+
+}
+
+.News_Letter_content :nth-child(2) {
+    height: 90px;
+}
+
+.News_Letter_content :nth-child(3) {
+    height: 30px;
+}
+
+.News_Letter_content {
+    gap: 10px;
+    width: 20vw;
+}
+
+.timings {
+    display: flex;
+    gap: 30px;
+    width: 40vw;
+}
+
+.days {
+    font-weight: 600;
+    color: rgb(248, 93, 119);
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+}
+
+.time {
+    font-weight: 600;
+    color: rgb(25, 33, 54);
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.footer_base {
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+    background-color: rgb(255, 95, 95);
+    height: 8vh;
+    color: white;
+}
+
+.footer_base span {
+    margin: auto;
+}
+
+@media(max-width:1024px) {
+    .card_left {
+        height: 83vh;
+    }
+
+    .card_right {
+        height: 83vh;
+    }
+
+    .card_left_content {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 32px;
+        margin-right: 60px;
+        height: 80vh;
+        width: 30vw;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .lc-1-1 {
+        gap: 10px;
+        width: 18vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .card_right_content {
+        width: 46vw;
+        height: 70vh;
+        /* background-color: rgb(248, 93, 119); */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 35px 30px;
+        gap: 10px;
+    }
+
+    .location_logo {
+        padding: 5px;
+        height: 35px;
+        width: 35px;
+        border-radius: 60px;
+        background-color: rgb(255, 61, 61);
+    }
+
+    .location_logo img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .location_info-1 {
+        font-family: Nunito;
+        font-size: 15px;
+        font-weight: 800;
+        color: rgb(25, 33, 54);
+    }
+
+    .location_info-2 {
+        font-family: Nunito;
+        font-size: 12px;
+        font-weight: 600;
+        color: rgb(25, 33, 54);
+    }
+
+    .contact_logo {
+        height: 35px;
+        width: 35px;
+    }
+
+    .contact_logo img {
+        width: 26px;
+    }
+
+    .contact_info-1 {
+        font-size: 15px;
+    }
+
+    .contact_info-2 {
+        font-size: 12px;
+    }
+
+    .footer {
+        width: 110vw;
+        height: 70vh;
+    }
+
+    .footer_content1 {
+        margin: 0px 65px;
+        padding: 20px;
+        gap: 50px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .footer_content2 {
+        height: 52vh;
+        gap: 20px;
+        padding: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .footer_line_horizontal {
+        width: 100vw;
+        height: 0.5px;
+        background-color: rgba(0, 0, 0, 0.255);
+        /* margin: auto; */
+    }
+
+    .News_Letter_content :nth-child(2) {
+        height: 84px;
+    }
+
+    .News_Letter_content input {
+        padding: 18px;
+        border-radius: 10px;
+        border: none;
+        font-size: 12px;
+    }
+
+
+    .Title_head {
+        font-size: 15px;
+    }
+
+    .Information span a {
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 700;
+        color: rgb(16, 54, 80);
+    }
+
+    .footer_content1 {
+        margin: 0px 65px;
+        padding: 20px;
+        gap: 50px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .footer_content2 {
+        height: 52vh;
+        gap: 20px;
+        padding: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .footer_line_horizontal {
+        width: 100vw;
+        height: 0.5px;
+        background-color: rgba(0, 0, 0, 0.255);
+        /* margin: auto; */
+    }
+
+    .News_Letter_content :nth-child(2) {
+        height: 84px;
+    }
+
+    .News_Letter_content input {
+        padding: 18px;
+        border-radius: 10px;
+        border: none;
+        font-size: 12px;
+    }
+
+
+    .Title_head {
+        font-size: 15px;
+    }
+
+    .Information span a {
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 700;
+        color: rgb(16, 54, 80);
+    }
+}
+
+
+@media(max-width:900px) {
+    .card_left {
+        height: 83vh;
+    }
+
+    .card_right {
+        height: 83vh;
+    }
+
+    .card_left_content {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 32px;
+        margin-right: 60px;
+        height: 80vh;
+        width: 35vw;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .lc-1-1 {
+        gap: 10px;
+        width: 21vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .card_right_content {
+        width: 46vw;
+        height: 70vh;
+        /* background-color: rgb(248, 93, 119); */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 35px 30px;
+        gap: 10px;
+    }
+
+    .rc-1-3 button {
+        background-color: rgb(238, 52, 78);
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 10px;
+        padding: 20px;
+        height: 12vh;
+        width: 16vw;
+        border: none;
+    }
+
+    .location_logo {
+        padding: 5px;
+        height: 35px;
+        width: 35px;
+        border-radius: 60px;
+        background-color: rgb(255, 61, 61);
+    }
+
+    .location_logo img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .location_info-1 {
+        font-family: Nunito;
+        font-size: 15px;
+        font-weight: 800;
+        color: rgb(25, 33, 54);
+    }
+
+    .location_info-2 {
+        font-family: Nunito;
+        font-size: 12px;
+        font-weight: 600;
+        color: rgb(25, 33, 54);
+    }
+
+    .contact_logo {
+        height: 35px;
+        width: 35px;
+    }
+
+    .contact_logo img {
+        width: 26px;
+    }
+
+    .contact_info-1 {
+        font-size: 15px;
+    }
+
+    .contact_info-2 {
+        font-size: 12px;
+    }
+
+    .footer_content1 {
+        padding: 20px;
+        gap: 46px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .location_logo {
+        padding: 5px;
+        height: 35px;
+        width: 35px;
+        border-radius: 60px;
+        background-color: rgb(255, 61, 61);
+    }
+
+    .location_logo img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .location_info-1 {
+        font-family: Nunito;
+        font-size: 15px;
+        font-weight: 800;
+        color: rgb(25, 33, 54);
+    }
+
+    .location_info-2 {
+        font-family: Nunito;
+        font-size: 12px;
+        font-weight: 600;
+        color: rgb(25, 33, 54);
+    }
+
+    .contact_logo {
+        height: 35px;
+        width: 35px;
+    }
+
+    .contact_logo img {
+        width: 26px;
+    }
+
+    .contact_info-1 {
+        font-size: 15px;
+    }
+
+    .contact_info-2 {
+        font-size: 12px;
+    }
+
+    .footer {
+        width: 114vw;
+        height: 70vh;
+    }
+
+    .footer_content1 {
+        margin: 0px 65px;
+        padding: 20px;
+        gap: 20px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .footer_content2 {
+        height: 52vh;
+        gap: 20px;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .timings {
+        display: flex;
+        gap: 10px
+    }
+
+    .days {
+        font-weight: 600;
+        color: rgb(248, 93, 119);
+        display: flex;
+        flex-direction: column;
+        width: 11vw;
+        font-size: 13px;
+    }
+
+    .time {
+        font-weight: 600;
+        color: rgb(25, 33, 54);
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+        font-size: 13px;
+    }
+
+    .footer_line_horizontal {
+        width: 100vw;
+        height: 0.5px;
+        background-color: rgba(0, 0, 0, 0.255);
+        /* margin: auto; */
+    }
+
+    .News_Letter_content :nth-child(2) {
+        height: 84px;
+    }
+
+    .News_Letter_content input {
+        padding: 18px;
+        border-radius: 10px;
+        border: none;
+        font-size: 12px;
+    }
+
+    .Title {
+        height: 30vh;
+        width: 27vw;
+    }
+
+    .Title_head {
+        font-size: 15px;
+    }
+
+    .Information span a {
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 700;
+        color: rgb(16, 54, 80);
+    }
+
+}
+
+@media(max-width:400px) {
+    .main {
+        width: 198vw;
+    }
+
+    .box {
+        height: 64vh;
+        width: 198vw;
+    }
+
+    .contact_card_container {
+        width: 198vw;
+    }
+
+    .card_left {
+        height: 78vh;
+        width: 90vw;
+    }
+
+    .card_left_content {
+        height: 78vh;
+        width: 75vw;
+    }
+
+    .lc-1-1 {
+        gap: 10px;
+        width: 48vw;
+    }
+
+    .card_right {
+        height: 78vh;
+        width: 92vw;
+    }
+
+    .card_right_content {
+
+        width: 78vw;
+    }
+
+    .card_right_content-span2 {
+        font-size: 12px;
+        font-weight: 400;
+        color: rgb(130, 134, 144)
+    }
+
+    .contact_card {
+        height: 75vh;
+    }
+
+    .rc-1 input {
+        font-size: 15px;
+        font-weight: 500;
+        font-family: Nunito, sans-serif;
+        border: none;
+        border-radius: 10px;
+        padding: 20px;
+        height: 9vh;
+        width: 75vw;
+    }
+
+    .rc-1-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .rc-1-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .rc-1-3 button {
+        background-color: rgb(238, 52, 78);
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 10px;
+        padding: 20px;
+        height: 7vh;
+        width: 44vw;
+        border: none;
+    }
+
+    .footer_content1 {
+        padding: 20px;
+        gap: 46px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .location_logo {
+        padding: 5px;
+        height: 35px;
+        width: 35px;
+        border-radius: 60px;
+        background-color: rgb(255, 61, 61);
+    }
+
+    .location_logo img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .location_info-1 {
+        font-family: Nunito;
+        font-size: 15px;
+        font-weight: 800;
+        color: rgb(25, 33, 54);
+        width: 36vw;
+    }
+
+    .location_info-2 {
+        font-family: Nunito;
+        font-size: 12px;
+        font-weight: 600;
+        color: rgb(25, 33, 54);
+    }
+
+    .contact_logo {
+        height: 35px;
+        width: 35px;
+    }
+
+    .contact_logo img {
+        width: 26px;
+    }
+
+    .contact_info-1 {
+        width: 29vw;
+        font-size: 15px;
+    }
+
+    .contact_info-2 {
+        font-size: 12px;
+    }
+
+    .footer {
+        width: 198vw;
+        height: 70vh;
+    }
+
+    .footer_content1 {
+        margin: 0px 15px;
+        padding: 20px;
+        gap: 25px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .footer_content2 {
+        height: 47vh;
+        gap: 20px;
+        padding: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .footer_line_horizontal {
+        width: 100vw;
+        height: 0.5px;
+        background-color: rgba(0, 0, 0, 0.255);
+        /* margin: auto; */
+    }
+
+    .News_Letter_content :nth-child(2) {
+        height: 84px;
+    }
+
+    .News_Letter_content input {
+        padding: 18px;
+        border-radius: 10px;
+        border: none;
+        font-size: 12px;
+    }
+
+
+    .Title_head {
+        font-size: 17px;
+        width: 40vw;
+    }
+
+    .Information span a {
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 700;
+        color: rgb(16, 54, 80);
+    }
+
+    .logo_name {
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+    .social_media_logo img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .Title_content {
+        font-weight: 600;
+        width: 45vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Title {
+        height: 35vh;
+        width: 50vw;
+    }
+
+    .News_Letter_content button {
+        padding: 10px;
+        border-radius: 15px;
+        width: 25vw;
+        font-size: 15px;
+        font-weight: 800px;
+        color: white;
+        background-color: rgb(25, 33, 54);
+        height: 35px;
+    }
+
+    .timings {
+        font-size: 13px;
+        display: flex;
+        gap: 30px;
+        width: 64vw;
+    }
+
+    .days {
+        width: 20vw;
+    }
+
+    .time {
+        width: 35vw;
+    }
+}
